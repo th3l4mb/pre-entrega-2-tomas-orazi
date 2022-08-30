@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    border: solid violet 4px;
+    border-style: double;
+    background-image: url(/img/depositphotos_184971890-stock-photo-80s-synthwave-retrowave-background-palm.jpg);
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    /* margin:; */
+}
+
+.nav {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(150, 38, 185, 0.40940126050420167) 81%, rgba(0, 212, 255, 1) 100%);
+    padding: 5px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+.nav a {
+    font-family: 'Anton', sans-serif;
+    color: rgba(6, 169, 244, 0.775);
+    text-decoration: none;
+
+}
+
+
+.header img {
+    width: 350px;
+    height: 350px;
+}
+
+.cards {
+    border: solid violet 4px;
+    border-style: double;
+    font-family: 'Oswald', sans-serif;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(47, 18, 56, 1) 81%, rgba(0, 212, 255, 1) 100%);
+    color: ivory;
+    text-align: center;
+}
+
+.cards h2 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.cards img {
+    width: 700px;
+    height: 400px;
+
+}
+
+.footer {
+    background-image: url(/img/depositphotos_184971890-stock-photo-80s-synthwave-retrowave-background-palm.jpg);
+    border: solid violet 4px;
+    border-style: double;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.redes img {
+    width: 50px;
+    height: 50px;
+}
+
+.about {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(47, 18, 56, 1) 81%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(196, 22, 184);
+    padding: 25px;
+}
+
+.about u {
+    text-decoration: underline;
+    color: cornsilk;
+}
+
+.about h2 {
+    color: darkturquoise;
+    text-align: center;
+    font-size: 50px;
+}
+
+.contact {
+    border: solid violet 4px;
+    border-style: double;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(47, 18, 56, 1) 81%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(196, 22, 184);
+    text-align: center;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.about ol {
+    list-style: lower-roman;
+}
+
+.latest-drop {
+    background: rgb(255, 0, 0);
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: ivory;
+    text-align: center;
+
+}
+
+.sales {
+    border: solid violet 4px;
+    border-style: double;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(47, 18, 56, 1) 81%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(196, 22, 184);
+    text-align: center;
+}
+
+.sales img {
+    width: 700px;
+    height: 400px;
+}
+
+.shops {
+    padding: 25px;
+    border: solid violet 4px;
+    border-style: double;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(47, 18, 56, 1) 81%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(196, 22, 184);
+    text-align: center;
+}
