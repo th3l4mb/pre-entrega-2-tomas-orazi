@@ -15,16 +15,44 @@
     <header class="header">
         <h1>BAD HABITS</h1>
         <a href="../index.html"><img src="../img/icono/45817.png" alt="icono"></a>
-        <nav class="nav">
-            <ul>
-                <li><a href="../pages/contact.html">CONTACT</a></li>
-                <li><a href="../pages/Shop.html">SHOPS</a></li>
-                <li><a href="../pages/about.Html">ABOUT</a></li>
-                <li><a href="../pages/sale.html">SALE</a></li>
-                <li><a href="../pages/latest-drop.html">LATEST DROPS</a></li>
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/about.Html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    E-STORE</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../pages/latest-drop.html">LATEST DROPS</a></li>
+                    <li><a class="dropdown-item" href="../pages/sale.html">SALE</a></li>
+                    <li><a class="dropdown-item" href="../pages/Shop.html">SHOPS</a></li>
+
+                    <li><hr class="dropdown-divider"></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link enabeled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
         </nav>
-        </ul>
-    </header>
+  </header>
     <main>
         <section class="contact">
             <h2>Numeros de contacto</h2>
