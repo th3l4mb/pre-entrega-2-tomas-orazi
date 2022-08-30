@@ -136,3 +136,16 @@
 .navbar {
 background-color: blueviolet;
 }
+ .main {
+    background: rgb(99,3,103);
+background: linear-gradient(138deg, rgba(99,3,103,1) 49%, rgba(50,150,240,1) 100%, rgba(45,164,253,1) 100%);
+ }
+ .container p {
+    color: aliceblue;
+ }
+
+ .col img:hover{
+    color: brown;
+    background-color: blueviolet;
+    transition: 0.5s;
+ }
